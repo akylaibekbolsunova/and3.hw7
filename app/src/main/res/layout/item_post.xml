@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:ignore="TextViewEdits">
+
+    <TextView
+        android:id="@+id/text_title_item_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/font_one"
+        android:inputType="text"
+        android:textSize="16sp"
+        tools:text="title" />
+
+    <TextView
+        android:id="@+id/text_content_item_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/font_one"
+        android:inputType="text"
+
+        android:textSize="16sp"
+        tools:text="content" />
+
+    <TextView
+        android:id="@+id/text_group_item_post"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/font_one"
+        android:inputType="number"
+        android:textSize="16sp"
+        tools:text="group" />
+
+    <TextView
+        android:id="@+id/text_user_item_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/font_one"
+
+        android:inputType="number"
+        android:textSize="16sp"
+        tools:text="user" />
+
+
+</LinearLayout>
